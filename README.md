@@ -1,14 +1,8 @@
 # bankmarketingcampaign
 
-import pandas as pd
-import numpy as np
-import io 
-from sklearn.metrics import accuracy_score
-from sklearn.preprocessing import LabelEncoder
-from sklearn import tree
-from sklearn.metrics import confusion_matrix
-from sklearn.model_selection import train_test_split
-from sklearn.utils import shuffle
-from sklearn.metrics import accuracy_score
-from sklearn.preprocessing import MinMaxScaler
+It is a dataset that describing Portugal bank marketing campaigns results.
+Conducted campaigns were based mostly on direct phone calls, offering bank client to place a term deposit.
+If after all marking afforts client had agreed to place deposit - target variable marked 'yes', otherwise 'no'
+The model predicts based on the features if the a propsepct will agree to place a deposit.
 
+This dataset cam be found on Kaggle
